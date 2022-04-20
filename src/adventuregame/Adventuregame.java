@@ -1,6 +1,6 @@
  /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
+ * Nathaniel Wilkinson
+ * April 20, 2022
  * and open the template in the editor.
  */
 package adventuregame;
@@ -25,7 +25,7 @@ System.out.println("  ");
 System.out.println( " Do you tell your family about your winnings? ");
 System.out.print( "- ");
 Start = keyboard.next();
-
+ 
 //first set of "if" statements and possible ending
 if (Start.equalsIgnoreCase("no")){
   System.out.println("Your family is unable to leech off your success, leaving you able to lead a happy life with your winnings.");
